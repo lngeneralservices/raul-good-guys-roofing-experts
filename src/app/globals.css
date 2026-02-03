@@ -1,0 +1,39 @@
+/* globals.css - Generated from CMS Design Template */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors */
+  --color-primary: #2C3E50;
+  --color-secondary: #F2F4F7;
+  --color-accent: #B8924B;
+  --color-background: #FFFFFF;
+  --color-surface: #F9FAFB;
+  --color-text: #34495E;
+  --color-text-muted: #62757F;
+
+  /* Typography */
+  --font-heading: "Playfair Display", sans-serif;
+  --font-body: "Merriweather", sans-serif;
+  --font-heading-weight: 600;
+
+  /* Spacing */
+  --spacing-section: 4rem;
+  --spacing-element: 1rem;
+
+  /* Layout */
+  --border-radius: 0.5rem;
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+}
